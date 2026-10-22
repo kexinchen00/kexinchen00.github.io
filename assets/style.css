@@ -14,6 +14,11 @@ h1,h2,h3{color:var(--text)}h1{font-size:clamp(28px,3vw,36px);line-height:1.25;fo
 .section-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px}.all-publications{font-size:12.5px;white-space:nowrap}.pub-list{list-style:none;padding:0;margin:0}.publication{padding:0 0 16px}.publication:last-child{padding:0}.paper-title{font-size:14px;font-weight:650;color:var(--text);line-height:1.5}.paper-authors{font-size:13px}.paper-venue{font-size:12.5px;color:var(--muted);font-style:italic}
 .exp-block{margin:0 0 13px}.exp-block:last-child{margin-bottom:0}.exp-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}.exp-head strong{color:var(--text);font-weight:650}.exp-head span{font-size:13px;color:var(--muted)}.courses{margin:5px 0 0 20px;padding:0;font-size:13px;color:var(--body)}.courses li{margin:0 0 3px}.course-code{font-weight:600}.course-term{color:var(--muted)}
 .awards{list-style:none;padding:0;margin:0}.awards li{display:grid;grid-template-columns:96px minmax(0,1fr);gap:12px;padding:0 0 7px}.awards li:last-child{padding:0}.award-year{font-size:13px;color:var(--muted)}
+.experience-subheading{font-size:14px;font-weight:650;line-height:1.5;color:var(--accent);margin:17px 0 9px}
+.entry-metrics{font-size:12.5px;line-height:1.55;color:var(--muted);margin-top:3px}
+.award-group+.award-group{margin-top:16px}
+.award-subheading{font-size:14px;line-height:1.45;font-weight:650;color:var(--accent);margin:0 0 8px}
+
 .pubs-page{padding-top:48px!important}.pubs-page h1{font-size:31px}.pubs-intro{color:var(--muted);margin:10px 0 32px}.pubs-page .content-section{margin-top:25px}.pubs-page .publication{padding-bottom:20px}
 .site-footer{border-top:1px solid var(--border)}.site-footer .wrap{font-size:12px;color:#87929c;padding-top:16px;padding-bottom:20px}
 @media(max-width:760px){.intro-layout{grid-template-columns:minmax(0,1fr) 200px;gap:20px}.profile-box{width:200px;padding-top:55px}.timeline-entry{grid-template-columns:176px minmax(0,1fr);column-gap:18px}.period{font-size:12px}}
