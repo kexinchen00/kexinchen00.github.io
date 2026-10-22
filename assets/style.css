@@ -24,3 +24,6 @@ h1,h2,h3{color:var(--text)}h1{font-size:clamp(28px,3vw,36px);line-height:1.25;fo
 @media(max-width:760px){.intro-layout{grid-template-columns:minmax(0,1fr) 200px;gap:20px}.profile-box{width:200px;padding-top:55px}.timeline-entry{grid-template-columns:176px minmax(0,1fr);column-gap:18px}.period{font-size:12px}}
 @media(max-width:620px){.nav{min-height:62px}.brand{font-size:14px}.nav nav{gap:12px}.nav nav a{font-size:12px}main{padding-top:26px!important}.intro-layout{grid-template-columns:1fr;gap:16px}.profile-box{grid-row:auto;width:100%;align-items:flex-start;padding-top:0}.profile-photo{width:136px}.contact-links{align-items:flex-start}.intro-copy{padding-top:2px}.timeline-entry{display:block;padding-bottom:14px}.period{display:block;white-space:normal;margin-bottom:1px}.section-heading{flex-wrap:wrap}.awards li{grid-template-columns:70px 1fr;gap:8px}.wrap{padding-left:18px;padding-right:18px}.pubs-page{padding-top:28px!important}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Emphasize undergraduate academic rankings without changing GPA styling. */
+.rank-highlight{font-weight:700;white-space:nowrap}.rank-scu{color:#146b63}.rank-uestc{color:#355ca1}
