@@ -27,3 +27,14 @@ h1,h2,h3{color:var(--text)}h1{font-size:clamp(28px,3vw,36px);line-height:1.25;fo
 
 /* Emphasize undergraduate academic rankings without changing GPA styling. */
 .rank-highlight{font-weight:400;color:#146b63;white-space:nowrap}
+
+/* Mobile ordering: name, portrait/contact links, then introduction. */
+@media (max-width:620px) {
+  .intro-layout { row-gap:14px; }
+  .intro-copy { display:contents; }
+  .intro-copy > h1 { grid-column:1; grid-row:1; margin:0; }
+  .profile-box { grid-column:1; grid-row:2; align-items:flex-start; }
+  .intro-copy > p:not(.position-note) { grid-column:1; grid-row:3; margin:0; }
+  .intro-copy > .position-note { grid-column:1; grid-row:4; margin:0!important; }
+  .contact-links { margin-top:12px; }
+}
